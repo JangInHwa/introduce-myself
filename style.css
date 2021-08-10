@@ -1,0 +1,294 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+@import url(//fonts.googleapis.com/earlyaccess/nanumbrushscript.css);
+
+*{
+	margin: 0;
+	box-sizing: border-box;	
+	font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+	line-height: 1.5;
+}
+
+img{
+	display: block;
+}
+
+body
+{
+	background-color: #101010;
+	color: white;
+}
+
+h1{
+	font-size: 56px;
+}
+
+h2
+{
+	font-size: 48px;
+}
+
+h6{
+	font-size: 20px;
+	font-weight: 500;
+	color: #027FFF;
+}
+
+p{
+	font-size: 24px;
+	color: rgba(255, 255, 255, 0.7);
+}
+
+main{
+	width: 1440px;
+	margin: 0 auto;
+}
+
+.introduce-myself{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 240px;
+	margin-bottom: 500px;
+}
+
+.introduction-1{
+	margin-bottom: 500px;
+}
+
+.introduction-1 h2{
+	margin-bottom: 16px;
+}
+
+.introduction-2{
+	margin-bottom: 500px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	text-align: right;
+}
+
+.introduction-2 h2{
+	margin-bottom: 16px;
+}
+
+.introduction-3{
+	margin-bottom: 600px;
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	justify-content: space-between;
+	text-align: left;
+}
+
+.introduction-3 h2{
+	margin-bottom: 16px;
+}
+
+.music-section{
+	margin-bottom: 500px;
+}
+
+.music-section h1{
+	text-align: center;
+	margin-bottom: 120px;
+}
+
+.music-section p{
+	text-align: center;
+	font-family: 'Nanum Brush Script', cursive;
+	font-size: 40px;
+	margin-bottom: 400px;
+}
+
+img.artist-circular-avatar{
+	box-sizing: content-box;
+	border-radius: 50%;
+	border: #1A1A1A solid 10px;
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	margin-left: -50px;
+}
+
+.album dt{
+	display: none;
+}
+
+.card{
+	background-color: #1A1A1A;
+	border-radius: 20px;
+	padding: 70px 60px;
+}
+
+.main-genre{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+
+.main-genre strong{
+	display: block;
+	font-size: 48px;
+	margin-top: 16px;
+}
+
+.horizontal-align{
+	display: flex;
+}
+
+.favorite-albums{
+	margin-right: 40px;
+}
+
+.favorite-albums>div{
+	display: flex;
+}
+
+.album{
+	margin-right: 24px;
+	width: 180px;
+}
+
+.album>img{
+	width: 180px;
+	height: 180px;
+	border-radius: 10px;
+	display: block;
+}
+
+.album dd{
+	font-size: 14px;
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.album dd strong{
+	font-weight: 400;
+	font-size: 16px;
+	color: white;
+	margin-top: 16px;
+	margin-bottom: 4px;
+	display: block;
+}
+
+.favorite-albums .album:last-child{
+	margin-right: 0px;
+}
+
+
+
+.music-instagram{
+	flex: 1;
+	text-align: center;
+	position: relative;
+	text-decoration: none;
+	color: unset;
+}
+
+.music-instagram>.card{
+	height: 100%;
+}
+
+.music-instagram img{
+	display: block;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.music-instagram strong{
+	font-weight: 400;
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, 90px);
+}
+
+.interested-section{
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 600px;
+}
+
+.interested-section h2{
+	margin-bottom: 24px;
+}
+
+.django-logo{
+	margin-top: 150px;
+	margin-bottom: 100px;
+	width: 200px;
+}
+
+.front-end-stacks{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 500px;
+}
+
+.front-end-stacks img{
+	width: 60px;
+}
+
+.front-end-stacks>div{
+	display: flex;
+	flex-direction: column;
+	height: 128px;
+	justify-content: space-between;
+}
+
+.front-end-stacks span{
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.social-section{
+	text-align: center;
+	margin-bottom: 300px;
+}
+
+.social-section a{
+	display: block;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.social-section>.links{
+	display: flex;
+	width: 620px;
+	justify-content: space-between;
+	margin: 0 auto;
+	margin-top: 200px;
+}
+
+.instagram-link{
+	background-size: cover;
+	background-image: url(assets/instagram-logo.png);
+}
+
+.github-link{
+	background-size: cover;
+	background-image: url(assets/github-logo.svg);
+}
+
+.mail-link{
+	background-image: url(assets/mail-icon.png);
+	background-color: white;
+	background-size: 48px;
+}
+
+.phone-link{
+	background-image: url(assets/phone-icon.png);
+	background-color: white;
+	background-size: 48px;
+}
